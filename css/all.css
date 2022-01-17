@@ -1,0 +1,134 @@
+body{
+  font-family: Microsoft JhengHei;
+}
+.wrap{
+  display: flex;
+}
+.content{
+  width: 25%;
+}
+.searchBar{
+  background-color: rgb(129, 184, 209);
+  padding: 5px 0 30px 0;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1.5px 1.5px 1px black;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.now{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 35px;
+  text-shadow: 1px 1px 1px black;
+}
+.selects li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+label{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px black;
+}
+select{
+  width: 50%;
+  padding: 1px 0 !important;
+}
+.list{
+  padding: 5%;
+}
+.list li{
+  padding: 10px 0;
+  border-bottom: 2px solid #888888;
+}
+.list li h3{
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.list li .mapBtn{
+font-size: 14px;
+}
+.list li p{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.list li .mask_adult{
+  background-color: rgb(129, 184, 209);
+  padding: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+}
+.list li .mask_child{
+  background-color: rgb(233, 155, 108);
+  padding: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+}
+.list li .lastUpdated{
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+
+/*map*/
+html,body,.wrap{
+  width: 100%;
+  height: 100%;
+}
+#map { 
+  width: 75%;
+  height: 100%; 
+}
+.marker-cluster-small {
+  background-color: rgba(181, 226, 140, 0.6);
+}
+.marker-cluster-small div {
+  background-color: rgba(110, 204, 57, 0.6);
+}
+.marker-cluster-medium {
+  background-color: rgba(241, 211, 87, 0.6);
+}
+.marker-cluster-medium div {
+  background-color: rgba(240, 194, 12, 0.6);
+}
+.marker-cluster-large {
+  background-color: rgba(253, 156, 115, 0.6);
+}
+.marker-cluster-large div {
+  background-color: rgba(241, 128, 23, 0.6);
+}
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 20px;
+}
+.marker-cluster div {/*修改數字樣式*/
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 15px;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.marker-cluster span {
+  line-height: 30px;
+}
+h4{
+  font-size: 18px;
+}

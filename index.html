@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css"></link><!--插件css1-1-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css"></link><!--插件css1-2-->
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="content">
+      <div class="searchBar">
+        <h1>口罩地圖</h1>
+        <p class="now"></p>
+        <form class="pure-form">
+          <ul class="selects">
+            <li>
+              <label for="county">縣市：&emsp;&emsp;</label>
+              <select id="county"></select>
+            </li>
+            <li>
+              <label for="town">鄉鎮市區：</label>
+              <select id="town"></select>
+            </li>
+            <li>
+              <label for="store">藥局名稱：</label>
+              <select id="store"></select>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <ul class="list"></ul>
+    </div>
+    <div id="map"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script><!--插件js-->
+  <script src="js/all.js"></script>
+</body>
+</html>
